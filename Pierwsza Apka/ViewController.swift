@@ -27,7 +27,7 @@ class ViewController: UIViewController {
 
     @IBAction func NacisnijMnie(sender: AnyObject) {
         NacisnijMnie.hidden=true
-        background.hidden=false
+        background.hidden=true
         SuperNapis.hidden=false
         
     }
