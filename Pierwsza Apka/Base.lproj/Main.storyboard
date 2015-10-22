@@ -7,7 +7,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Pierwsza_Apka" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -21,8 +20,12 @@
                                 <rect key="frame" x="-461" y="-56" width="903" height="848"/>
                                 <animations/>
                             </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="To-Jest-Super-Apka" translatesAutoresizingMaskIntoConstraints="NO" id="Ygo-Hr-GoU">
+                                <rect key="frame" x="20" y="140" width="374" height="128"/>
+                                <animations/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WhE-Hy-Mz0">
-                                <rect key="frame" x="20" y="331" width="374" height="47"/>
+                                <rect key="frame" x="20" y="344" width="374" height="47"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="Nacisnij Mnie"/>
@@ -30,10 +33,6 @@
                                     <action selector="NacisnijMnie:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eFr-fi-iXA"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="To-Jest-Super-Apka" translatesAutoresizingMaskIntoConstraints="NO" id="Ygo-Hr-GoU">
-                                <rect key="frame" x="20" y="148" width="374" height="128"/>
-                                <animations/>
-                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -45,6 +44,7 @@
                         <outlet property="background" destination="4fG-Yx-hL6" id="ow2-be-HE9"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="200" y="355"/>
         </scene>
